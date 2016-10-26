@@ -1,4 +1,4 @@
-NRobots.txt
+NRobots.txt [![Build status](https://ci.appveyor.com/api/projects/status/ksog2wyr3y9v8m4i?svg=true)](https://ci.appveyor.com/project/AttilaKemny/nrobots-dotnet-core)
 ====
 
 A robots.txt parser written in c#.
