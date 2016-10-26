@@ -16,7 +16,7 @@ build_script:
 after_build:
 - dotnet pack "Robots" -c %CONFIGURATION% --no-build --version-suffix %LABEL% -o artifacts
 test_script:
-- dotnet test "RobotTests" -c %CONFIGURATION%
+- dotnet test "RobotsTests" -c %CONFIGURATION%
 artifacts:
 - path: artifacts\**\*.*
 cache:
